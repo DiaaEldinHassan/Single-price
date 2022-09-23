@@ -1,0 +1,165 @@
+body
+{
+    background-color: powderblue;
+    font-family: 'Karla', sans-serif;
+}
+.attribution
+{
+    font-size: 11px; 
+    text-align: center; 
+} 
+.attribution a 
+{
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* top container */
+div.container.t
+{
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    padding-bottom: 1rem;
+    border-top-right-radius:15px ;
+    border-top-left-radius: 15px;
+    margin-top: 100px;
+    width: 40%;
+}
+h4.topc
+{
+    padding: 2rem 0 1rem 1rem;
+    color: hsl(179, 62%, 43%);;
+}
+
+h5.topc
+{
+    color: hsl(71, 73%, 54%);
+    padding: 0 0 1rem 1rem;
+    font-family: 'Karla', sans-serif;
+} 
+p.topc
+{
+    padding: 0 0 0 1rem;
+    color : hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+}
+/* bottom container */
+div.container.b
+{
+    font-family: 'Karla', sans-serif;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 40%;
+}
+div.row
+{
+    height: 230px;
+    margin-bottom: 50px;
+}
+div.col-md-6
+{
+    font-family: 'Karla', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* width: 40%; */
+}
+/* right bottom container */
+div.col-md-6.c2
+{
+    background-color: hsl(179, 68%, 43%);
+    border-bottom-right-radius: 15px;
+    font-family: 'Karla', sans-serif;
+}
+p.botr
+{
+    font-size: 11px;
+    width: 58%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: hsl(204, 43%, 93%);
+}
+
+
+/* left bottom container */
+h6.botc
+{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: white;
+}
+h2.botc
+{
+    display: inline;
+    padding-left: 1rem;
+    color: white;
+}
+p.dark
+{
+    color: hsl(218, 22%, 67%);
+    border-left: 1.5 rem;
+    
+    border-left: 1rem;
+    display: inline;
+}
+p.light
+{
+    color: hsl(204, 43%, 93%);
+    padding-left: 1rem;
+    font-size: 15px;
+}
+div.col-md-6.c1
+{
+    background-color: hsl(179, 60%, 34%) ;
+    border-bottom-left-radius: 15px;
+}
+.btn 
+{
+   background-color: hsl(71, 73%, 54%);
+   box-shadow:1px 2px hsl(179, 61%, 30%)  ;
+}
+p
+{
+    padding-left: .5rem;
+}
+/*----------------------------------------------------------------------------------*/
+@media screen and (min-width:375px) and (max-width:1439px)
+{
+    /* top container */
+
+div.container.t
+{
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    padding-bottom: 1rem;
+    border-top-right-radius:15px ;
+    border-top-left-radius: 15px;
+    margin-top: 100px;
+    text-align: left;
+    width: 90%;
+}
+   /* bot container  */
+div.row
+{
+    /* margin-right: -100%;
+    margin-left: -100%; */
+    margin-bottom: 300px;
+}
+div.col-md-6.c1
+{
+    border-bottom-left-radius: 0px ;
+    width: 100%;
+}
+div.col-md-6.c2
+{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+}
+div.container.b
+{
+    font-family: 'Karla', sans-serif;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 90%;
+}
+}
